@@ -70,10 +70,6 @@ Single-file React 18 application. Open `index.html` directly in any browser — 
 - **26%** of Virginia's statewide electricity from Ashburn corridor facilities
 - Regulatory tailwinds: White House Ratepayer Protection Pledge (March 2026) · FERC Large Load Rulemaking (April 2026)
 
-## Team
-
-Charlotte Ho · Corey McDonald · Lars Birhanzel · Yifei Wang
-Instructor: Prof. Joe Hao
 
 ## Key References
 
