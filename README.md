@@ -3,9 +3,7 @@
 
 A software platform that coordinates demand flexibility across a fleet of AI data centers — reducing peak grid load, earning capacity market revenue, and preventing the rebound problem that makes uncoordinated site-level flexibility counterproductive at scale.
 
-Built for PS5715 · Intelligent Energy Systems · Columbia SIPA, Spring 2026.
-
----
+Built for PS5715 · Intelligent Energy Systems · Columbia SIPA and SUMA, Spring 2026.
 
 ## The Problem
 
@@ -17,15 +15,11 @@ Uncoordinated flexibility does not eliminate peaks — it moves them.
 
 Cadence holds fleet-level visibility across all enrolled facilities and assigns staggered dispatch windows so no two sites return load simultaneously. This converts hidden data center capacity into reliable, ISO-auditable grid relief — something architecturally impossible for any single-site tool acting alone.
 
----
-
 ## Live Demo
 
 **[charlotte-ho.github.io/Cadence](https://charlotte-ho.github.io/Cadence/)**
 
 Five enrolled Ashburn colocation facilities · 465 MW total load · No login required.
-
----
 
 ## Dashboard Screens
 
@@ -37,8 +31,6 @@ Five enrolled Ashburn colocation facilities · 465 MW total load · No login req
 | **Trust — Contract Engine** | Contract terms per site, live LMP oracle, settlement history, human vs. contract-governed dispatch |
 | **Revenue Analytics** | Demand charge savings, 5-year ARR trajectory, Q1 2026 dispatch log, FERC Order 2222 tracker |
 | **Engine Architecture** | Four proprietary modules, patent pending status, build vs. integrate decision matrix |
-
----
 
 ## Architecture
 
@@ -52,8 +44,6 @@ Five enrolled Ashburn colocation facilities · 465 MW total load · No login req
 
 **Market layer** — Demand charge reduction (Day 1) → PJM capacity market (Year 2) → queue acceleration advisory and utility flexibility data (Year 3+).
 
----
-
 ## Prototype Parameters
 
 | Parameter | Value |
@@ -65,8 +55,6 @@ Five enrolled Ashburn colocation facilities · 465 MW total load · No login req
 | Dispatch horizon | 4–12-hour rolling window |
 | Q1 2026 dispatch log | 14 events · $329/MW-day PJM clearing · $68,200 fleet earnings |
 
----
-
 ## Technology
 
 Single-file React 18 application. Open `index.html` directly in any browser — no build step, no backend.
@@ -75,8 +63,6 @@ Single-file React 18 application. Open `index.html` directly in any browser — 
 - **Fonts** — Space Grotesk · DM Mono
 - **Optimizer** — Google OR-Tools constraint satisfaction (simulated in prototype)
 
----
-
 ## Market Context
 
 - **$2.5B TAM** across four revenue layers (demand charges, capacity market, utility data, queue advisory)
@@ -84,15 +70,10 @@ Single-file React 18 application. Open `index.html` directly in any browser — 
 - **26%** of Virginia's statewide electricity from Ashburn corridor facilities
 - Regulatory tailwinds: White House Ratepayer Protection Pledge (March 2026) · FERC Large Load Rulemaking (April 2026)
 
----
-
 ## Team
 
-Charlotte Ho · Corey McDonald · Lars Birhanzel · Yifei Wang  
-Columbia SIPA · MS Sustainability Management · PS5715 · Spring 2026  
+Charlotte Ho · Corey McDonald · Lars Birhanzel · Yifei Wang
 Instructor: Prof. Joe Hao
-
----
 
 ## Key References
 
