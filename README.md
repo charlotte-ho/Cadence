@@ -3,6 +3,8 @@
 
 A software platform that coordinates demand flexibility across a fleet of AI data centers — reducing peak grid load, earning capacity market revenue, and preventing the rebound problem that makes uncoordinated site-level flexibility counterproductive at scale.
 
+Built for PS5715 · Intelligent Energy Systems · Columbia SIPA, Spring 2026.
+
 ---
 
 ## The Problem
@@ -82,6 +84,13 @@ Single-file React 18 application. Open `index.html` directly in any browser — 
 - **26%** of Virginia's statewide electricity from Ashburn corridor facilities
 - Regulatory tailwinds: White House Ratepayer Protection Pledge (March 2026) · FERC Large Load Rulemaking (April 2026)
 
+---
+
+## Team
+
+Charlotte Ho · Corey McDonald · Lars Birhanzel · Yifei Wang  
+Columbia SIPA · MS Sustainability Management · PS5715 · Spring 2026  
+Instructor: Prof. Joe Hao
 
 ---
 
